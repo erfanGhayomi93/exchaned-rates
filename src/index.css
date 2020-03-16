@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.countres{
+  display: flex;
+  width: 50%;
+  height: 200px;
+  margin:  0 auto;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  /* border-radius: 6px; */
+  margin-top: 5px;
+}
+
+.countres .item{
+  flex-grow: 1;
+  width: 50%;
+  padding: 2px;
+}
+.countres .item img{
+  width: 100%;
+  height: 190px;
+  box-shadow: 5px 5px 10px rgb(128, 125, 125),-5px -5px 10px white;
+}
+.form{
+  width: 25%;
+  margin: auto;
+}
